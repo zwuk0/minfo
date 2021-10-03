@@ -1,16 +1,15 @@
 .app {
-  text-align: center;
-}
-
-.App-header {
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  // filter: blur(1em);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
 }
-
+.app__container {
+  width: 100%;
+  max-width: 75em;
+}
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);

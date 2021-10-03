@@ -1,0 +1,21 @@
+.row__posters {
+  display: flex;
+  padding: 1em;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.row__img {
+  width: 15.625em;
+  padding: 0.3em;
+  transition: 250ms;
+  &:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+}
+.row__img-large {
+  width: 12em;
+}
